@@ -13,7 +13,7 @@ module.exports = {
         background_color: `#FF5B10`,
         theme_color: `#FF5B10`,
         display: `standalone`,
-        icon: `src/images/favicon-32x32.png`,
+        icon: `src/images/icon.png`,
         cache_busting_mode: 'none',
         icon_options: {
           purpose: `maskable any`,
