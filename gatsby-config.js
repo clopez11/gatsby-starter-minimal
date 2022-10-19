@@ -7,8 +7,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `Prodigy Education`,
-        short_name: `Prodigy`,
+        name: `Testing Bug`,
+        short_name: `Testing Bug`,
         start_url: `/`,
         background_color: `#FF5B10`,
         theme_color: `#FF5B10`,
