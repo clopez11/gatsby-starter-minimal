@@ -74,7 +74,6 @@ module.exports = {
         // appendScript: require.resolve(`./src/custom-sw-code.js`), // excludes Optimizely from cache
         workboxConfig: {
           importWorkboxFrom: `cdn`,
-          precachePages: [`/*`],
           globDirectory: `rootDir`,
           modifyURLPrefix: {
             '/': `${process.env.ASSET_PREFIX || ''}/`, // Point to cdn otherwise use the default
